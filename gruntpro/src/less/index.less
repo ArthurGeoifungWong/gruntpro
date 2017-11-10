@@ -1,0 +1,12 @@
+.testt (@background: pink) {
+  background: @background;
+  border: 1px solid black;
+}
+.test1 {
+  .testt();
+  color: rgb(0, 102, 255);
+}
+.test2 {
+  .testt(grey);
+  color: rgb(0, 255, 13);
+}
